@@ -7,6 +7,7 @@ import 'echarts/lib/component/title'
 import 'echarts/lib/component/legend'
 import 'echarts/lib/component/toolbox'
 import 'echarts/lib/component/dataZoom'
+import 'echarts/lib/component/markLine'
 
 
 // function updateChartFile(file) {

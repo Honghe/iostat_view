@@ -44,10 +44,6 @@ class DropArea extends React.Component {
 
 
 class DataTree extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
     state = {
         expandedKeys: ['data'],
         autoExpandParent: true,
@@ -166,7 +162,24 @@ class App extends Component {
                     areaStyle: {normal: {}},
                     // 根据名字对应到相应的系列
                     // name: this.state.dataset.diskLegend,
-                    data: line
+                    data: line,
+                    markLine: {
+                        symbol: 'none',
+                        itemStyle: {
+                            normal: {
+                                // color: '#1e90ff',
+                                label: {
+                                    show: true,
+                                    // formatter: function (param) {
+                                    //     return Math.round(param.value / 10000) + ' 万'
+                                    // }
+                                }
+                            }
+                        },
+                        data: [
+                            {type: 'average', name: 'average'}
+                        ]
+                    }
                 })
             })
             lineOption.xAxis.data = state.dataset.timeSeries
@@ -208,7 +221,7 @@ class App extends Component {
                 </div>
                 <div>
                     <Row>
-                        <Col span={4}>
+                        <Col span={5}>
                             <DataTree list={this.state.filelist} selectFile={this.selectFile}/>
                         </Col>
                         <Col span={19}>
