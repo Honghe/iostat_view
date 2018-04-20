@@ -1,0 +1,34 @@
+Linux 3.10.0-693.el7.x86_64 (hadoop5) 	2018-04-19 	_x86_64_	(32 CPU)
+
+2018-04-19T04:39:39-0400
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sdb               0.00     0.00  951.00    1.00   118.63     0.00   255.21     2.33    2.44    2.38   58.00   1.05  99.80
+
+2018-04-19T04:39:41-0400
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sdb               0.00     0.00  770.50    0.00    96.14     0.00   255.53     1.88    2.46    2.46    0.00   1.04  80.40
+
+2018-04-19T04:39:43-0400
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sdb               0.00     0.00  517.00    5.50    64.50     0.89   256.31     1.39    2.67    2.62    6.45   1.10  57.25
+
+2018-04-19T04:39:45-0400
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sdb               0.00     0.00  311.50    0.00    38.87     0.00   255.54     0.77    2.47    2.47    0.00   1.05  32.70
+
+2018-04-19T04:39:47-0400
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sdb               0.00     0.00  965.00    0.00   120.38     0.00   255.48     2.35    2.44    2.44    0.00   1.03  99.70
+
+2018-04-19T04:39:49-0400
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sdb               0.00     0.00  787.56    0.00    98.27     0.00   255.55     1.92    2.44    2.44    0.00   1.04  82.09
+
+2018-04-19T04:39:51-0400
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sdb               0.00     0.00  517.00    0.00    64.50     0.00   255.51     1.32    2.55    2.55    0.00   1.06  54.90
+
+2018-04-19T04:39:53-0400
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+sdb               0.00     0.00  492.00    1.00    61.43     0.10   255.60     1.42    2.78    2.51  138.00   1.09  53.55
+
